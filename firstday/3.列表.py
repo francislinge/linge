@@ -46,3 +46,25 @@
 # print(items8[-1])  # watermelon
 # items8[-4] = 'strawberry'
 # print(items8)      # ['apple', 'strawberry', '666',durian', 'peach', 'watermelon'] 666
+
+# items8 = ['apple', 'waxberry', 'pitaya', 'peach', 'watermelon']
+
+# #遍历
+# # print(items8[0:5:2])  #  'waxberry', 'pitaya'
+# languages = ['Python', 'Java', 'C++', 'Kotlin']
+# for index in range(len(languages)):
+#     print(languages[index])
+#
+# languages = ['Python', 'Java', 'C++', 'Kotlin']
+# for language in languages:
+#     print(language)
+
+
+# 添加和删除元素
+# 列表是一种可变容器，可变容器指的是我们可以向容器中添加元素、可以从容器移除元素，也可以修改现有容器中的元素。我们可以使用列表的append方法向列表中追加元素，使用insert方法向列表中插入元素。追加指的是将元素添加到列表的末尾，而插入则是在指定的位置添加新元素，大家可以看看下面的代码。
+
+# languages = ['Python', 'Java', 'C++']
+# languages.append('JavaScript')
+# print(languages)  # ['Python', 'Java', 'C++', 'JavaScript']
+# languages.insert(1, 'SQL')
+# print(languages)  # ['Python', 'SQL', 'Java', 'C++', 'JavaScript']
